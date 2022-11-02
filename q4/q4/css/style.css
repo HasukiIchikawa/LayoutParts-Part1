@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+.first--bar, .second--bar {
+    display: table;
+    width: 100%;
+}
+
+.second--bar {
+    margin-top: 50px;
+}
+
+.first--bar div, .second--bar div {
+    display: table-cell;
+    text-align: center;
+    padding: 20px;
+}
+
+.red--area {
+    background: #ff7b7b;
+    width: 300px;
+}
+
+.purple--area {
+    background: #7b86ff;
+}
+
+.yellow--area {
+    background: #fff27b;
+    width: 300px;
+}
+
+.green--area {
+    background: #7bff91;
+}
+
+.pink--area {
+    background: #ff7be2;
+    width: 400px;
+}
+
+.orange--area {
+    background: #ffc67b;
+    width: 400px;
+}
+
+.blue--area {
+    background: #7bf2ff;
+}
